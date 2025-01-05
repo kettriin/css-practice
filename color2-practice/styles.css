@@ -1,0 +1,9 @@
+h1{
+    background-color: #f60;
+}
+h2{
+    background-color: #36c;
+}
+h1, h2{
+    color: #fff;
+}
