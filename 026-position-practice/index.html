@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прямоугольник и круг</title>
+    <style>
+        body{
+            background-color: grey;
+        }
+        .rectangle{
+            width: 200px;
+            height: 100px;
+            background-color: blue;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .circle{
+            width: 80px;
+            height: 80px;
+            background-color: aqua;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+        .circle:hover{
+            border-radius: 30%;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="rectangle"></div>
+    <div class="circle"></div>
+</body>
+</html>
