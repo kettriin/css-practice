@@ -1,0 +1,17 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.blog-header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif /*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+    font-size: 3rem;
+}
+
+.btn-theme {
+    font-size: 1.8rem;
+  }
+
+.featurette-divider {
+    margin: 5rem 0;
+}
